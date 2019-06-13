@@ -1,0 +1,87 @@
+/* Move down content because we have a fixed navbar that is 3.5rem tall */
+html {
+  height: 100%;
+  margin:0;
+}
+
+
+body {
+  padding-top: 3.5rem;
+  position: relative;
+  margin: 0;
+  height: 100%;
+  
+}
+
+footer{
+  margin-top:100px;
+}
+
+h1,h2,h3  {
+  font-family: 'Noto Sans HK', sans-serif;
+}
+
+span{
+  font-size:17px;
+  font-family: 'Noto Sans HK', sans-serif;
+}
+
+.wraper{
+  min-height: 100%;
+  margin-bottom:-50px;
+}
+
+
+
+.jumbotron {
+    
+    background-image: url(../images/notas.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.jumbotron .container {
+    color: white;
+}
+
+.invisble{
+  height:1px;
+}
+
+.input-data{
+  margin-top:10px;
+  margin-bottom:30px;
+}
+
+.input-data-elem{
+  margin-left: 40%;
+  width: 100px;
+  height: 35px;
+  font-family: 'Noto Sans HK', sans-serif;
+
+}
+  .input-span{
+    margin-left:40%;
+  }
+  
+
+#input-inicio{
+  padding-top:10px;
+  margin-left: 30%;
+}
+
+#input-moeda2{
+  margin-top:20px;
+  
+
+}
+#input-moeda1{
+  margin-top:20px;
+  margin-right:30px;
+}
+
+
+#lineChart{
+  display:block;
+  margin-top:100px;
+}
